@@ -24,5 +24,11 @@ pipeline {
                 echo 'Managing the Project'
             }
         }
+        
+        stage('Serve'){
+            steps{
+                echo 'Serving the Project'
+            }
+        }
     }
 }
